@@ -5,9 +5,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #db936b; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#ClockApp{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock-body{
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#lengths{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px 0 10px 0;
+}
+
+#lengths-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#timer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #a78282;
+  border-radius: 20px;
+  padding: 10px 45px 10px 45px;
+}
+
+#control-container{
+  margin: 10px 0 10px 0;
+}
+
+button{
+  border: none;
+  background: none;
+  color:white;
+  font-size: x-large;
+}
+
+span{
+  font-size: x-large;
+  color: white;
+}
+
+.format-text{
+  font-size: x-large;
+  color:white;
+}
+
+.format-title{
+  font-size: xx-large;
+  color:white;
+}
+
+#time-left{
+  font-size: xxx-large;
 }
